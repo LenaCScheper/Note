@@ -1,11 +1,27 @@
 import './App.css';
+import { SideBar } from './components/SideBar/SideBar';
 
 function App() {
-	return {
-    <div className='container'>
+	return (
+		<div className='App'>
+			<SideBar />
+			<ListItem />
+			<Workspace />
+			<SearchBox />
+		</div>
+	);
+}
 
-    </div>
-  };
+function ListItem() {
+	return <div></div>;
+}
+
+function Workspace() {
+	return <div></div>;
+}
+
+function SearchBox() {
+	return <div></div>;
 }
 
 export default App;
