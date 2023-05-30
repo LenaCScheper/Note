@@ -1,29 +1,28 @@
-import React from 'react';
 
+import css from './SideBar.module.css';
+import s from './SideBar.module.css'
+import {BiTresh} from 'react-icons';
+import {BiPlus} from 'react-icons';
+import {BiPencilMedical} from 'react-icons';
+import {BiSearch} from 'react-icons';
 
-export function SideBar() {
+ function SideBar() {
 	return (
-		<div>
-			<button>
-				<svg class='icon-plus' width='14' height='14'>
-					<use href='./images/symbol-defs.svg#icon-plus'></use>
-				</svg>
+		<div className={s.container}>
+			<button className={css.button}>
+				<BiPlus className={css.icon}/>
+			</button>
+			<button className={css.button}>
+				<BiTresh className={css.icon}/>
+			</button>
+			<button className={css.button}>
+				<BiPencilMedical className={css.icon}/>
 			</button>
 			<button>
-				<svg class='icon-bin' width='14' height='14'>
-					<use href='./images/symbol-defs.svg#icon-bin'></use>
-				</svg>
-			</button>
-			<button>
-				<svg class='icon-pencil' width='14' height='14'>
-					<use href='./images/symbol-defs.svg#icon-pencil'></use>
-				</svg>
-			</button>
-			<button>
-				<svg class='icon-search' width='14' height='14'>
-					<use href='./images/symbol-defs.svg#icon-search'></use>
-				</svg>
+				<BiSearch className={css.icon} />
 			</button>
 		</div>
 	);
 }
+
+export default SideBar
