@@ -1,0 +1,5 @@
+[
+    {"id" : "id-1", "text": "Read book", "completed": true },
+    {"id" : "id-1", "text": "Write letter", "completed": false },
+    {"id" : "id-1", "text": "Clean at home", "completed": false }
+]
