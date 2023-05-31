@@ -19,7 +19,7 @@ class App extends Component {
 
 		const totalTodoCount = todos.length;
 		const completedTodoCount = todos.reduce(
-			(total, todo) => (todo.completed ?total + 1 : total),
+			(total, todo) => (todo.completed ? total + 1 : total),
 			0,
 		);
 

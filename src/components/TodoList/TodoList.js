@@ -6,7 +6,7 @@ const TodoList = ({ todos, onDeleteTodo }) => (
         {todos.map(({ id, text }) => (
             <li key={id} className='TodoList_item'>
                 <p className="TodoList_text">{text}</p>
-                <button onClick={() => onDeleteTodo(id)}>Видалити</button>
+                <button className="TodoList_button" onClick={() => onDeleteTodo(id)}>Видалити</button>
 
             </li>
         ))}
