@@ -10,7 +10,7 @@ class App extends Component {
 
 	deleteTodo = todoId => {
 		this.setState(prevState => ({
-			todos: prevState.todos.filter(todo =>todo.id !== todoId),
+			todos: prevState.todos.filter(todo => todo.id !== todoId),
 		}));
 	};
 
@@ -26,7 +26,7 @@ class App extends Component {
 		return (
 			<>
 			<h1>
-				Состояние компонента
+				Моя задача
 			</h1>
 
 			<div>
