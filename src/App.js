@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import TodoList from './components/TodoList/TodoList';
-import 'index.css';
+import TodoList from './components/TodoList';
 import initialTodos from './todos.json'
 
 
