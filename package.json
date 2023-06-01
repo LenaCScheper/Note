@@ -6,8 +6,12 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "prop-types": "^15.8.1",
 
+=======
+    "browser-sync": "^2.29.3",
+>>>>>>> 32978955d8f8b80b3d691c7c69367d006ea3969a
     "create-react-app": "^5.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
